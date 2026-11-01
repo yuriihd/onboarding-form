@@ -1,0 +1,20 @@
+.page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 96px;
+  min-height: 100vh;
+  padding: 40px 16px;
+  background: var(--color-background);
+}
+
+.step {
+  margin: 0;
+  font-size: 18px;
+}
+
+@media (max-width: 480px) {
+  .page {
+    gap: 40px;
+  }
+}
