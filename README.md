@@ -1,6 +1,6 @@
 # Onboarding Form
 
-A single-step onboarding form where a user enters their personal and business details. Built with React, TypeScript and Vite.
+The first step of an onboarding flow, where a user enters their personal and business details. Built with React, TypeScript and Vite.
 
 ## Getting started
 
