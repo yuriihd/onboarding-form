@@ -52,3 +52,7 @@ All fields are required and are validated on blur and on submit.
 
 - The corporation number is sent to the API only after it passes the format check. Each result is cached for the lifetime of the form, so validating other fields does not repeat the request. Failed requests are not cached and are retried on the next validation.
 - On submit, the values are sent with `POST /profile-details`. A server error message is shown above the submit button. On success, the form is reset and a confirmation is shown.
+
+## Assumptions
+
+- The confirmation after a successful submit only shows that the details were saved. In the full flow, a successful submit would go to step 2.
